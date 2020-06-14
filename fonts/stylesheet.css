@@ -1,8 +1,7 @@
 @font-face {
-    font-family: 'aiharahudemojikaishoregular';
-    src: url('aiharahudemojikaisho3.00-webfont.woff2') format('woff2'),
-         url('aiharahudemojikaisho3.00-webfont.woff') format('woff');
+    font-family: 'Aihara';
+    src: url('https://cdn.rawgit.com/zainsci/PrintA4/blob/master/fonts/aiharahudemojikaisho3.00-webfont.woff2') format('woff2'),
+         url('https://cdn.rawgit.com/zainsci/PrintA4/blob/master/fonts/aiharahudemojikaisho3.00-webfont.woff') format('woff')
     font-weight: normal;
     font-style: normal;
-
-}
+} 
