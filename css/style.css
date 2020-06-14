@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page {
+  margin: 30px;
+  width: 1000px;
+  height: 1415px;
+  background-color: #EEE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page .note {
+  width: 360px;
+  height: 360px;
+  background-color: #DDD;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.page .note .note-sec {
+  width: 180px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.page .note-sing {
+  width: 360px;
+  height: 360px;
+  background-color: #DDD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page .note-sing .note-sec-sing {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 250px;
+}
+
+.page .note-sing .note-sec-sing h1 {
+  font-size: 125px;
+}
+
+.page .note-sing .note-sec-sing h6, .page .note-sing .note-sec-sing h5 {
+  font-size: 32px;
+}
+
+@media print {
+  .page {
+    visibility: visible;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .page .note {
+    background-color: white;
+    color: black;
+  }
+}
+/*# sourceMappingURL=style.css.map */

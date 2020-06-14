@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+
+
+body
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page
+{
+  margin: 30px;
+  width: 1000px;
+  height: 1415px;
+  background-color: #EEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .note
+  {
+    width: 360px;
+    height: 360px;
+    background-color: #DDD;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .note-sec
+    {
+      width: 180px;
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Noto Serif JP', serif;
+    }
+  }
+  .note-sing 
+  {
+    width: 360px;
+    height: 360px;
+    background-color: #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .note-sec-sing
+    {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Noto Serif JP', serif;
+      font-size: 250px;
+      h1 
+      {
+        font-size: 125px;
+      }
+      h6 , h5 
+      {
+        font-size: 32px;
+      }
+    }
+  }
+}
+
+@media print {
+  .page
+  {
+    visibility: visible;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .note
+    {
+      background-color: white;
+      color: black;
+    }
+  }
+}
