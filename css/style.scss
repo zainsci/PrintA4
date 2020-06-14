@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+@font-face {
+  font-family: Aihara;
+  src: url('../font/AiharaHudemojiKaisho3.00.ttf')
+}
+
+h5 
+{
+  font-family: 'EB Garamond', serif;
+}
+h5
+{
+  font-family: 'Noto Serif JP', serif;
+}
 
 
 body
@@ -9,6 +23,7 @@ body
   justify-content: center;
   align-items: center;
 }
+
 
 .background
 {
@@ -42,7 +57,7 @@ body
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-family: 'AiharaHudemojiKasiho', serif;
+      font-family: Aihara;
     }
   }
   .note-sing 
@@ -61,7 +76,7 @@ body
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-family: 'Aihara Hudemoji Kasiho', serif;
+      font-family: Aihara;
       font-size: 250px;
       h1 
       {
